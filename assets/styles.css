@@ -97,7 +97,7 @@ background-image: url(http://www.transparenttextures.com/patterns/black-linen.pn
 }
 #main_container {
     padding-top: 130px;
-    margin: 40 60 10 60;
+
 }
 
 .main_section{
@@ -121,7 +121,7 @@ background-image: url(http://www.transparenttextures.com/patterns/black-linen.pn
 
 
 
-h2, h3, {
+h2, h3 {
     border-bottom: 2px solid #eee;
     padding-bottom: 20px;
     margin-bottom: 15px;
@@ -228,3 +228,41 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
 }
+
+@media screen and (max-width:980px) {
+    
+
+}
+
+@media screen and (max-width:768px) {
+        #maincontainer {
+            width: 100%;}
+}
+@media screen and (max-width:640px) {
+
+    #logo {
+        width: 100%;
+    }
+    
+    nav {
+        float:none;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .main_section {
+        margin-top: 60px;
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 200px;
+    }
+    footer {
+        margin-top: 75%;
+    }
+    
+ 
+
+    
+
+   
+}
+
